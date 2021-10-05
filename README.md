@@ -1,5 +1,6 @@
 # Social Sentiment Analysis for Building ETF
-This is the final project on text mining class(Course code：10920ISS507300) at National Tsing Hua University. 
+This is the final project on text mining class(Course code：10920ISS507300) at National Tsing Hua University.
+
 Our teammate include YU-JU Chou and TZU-CHUN Hung. 
 ## Introduction
 In the investment area, volume is one of the important indicators affecting stocks prices. For investors who lack experience, how to choose target stocks is a difficult topic.
