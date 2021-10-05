@@ -31,9 +31,14 @@ We need to analyze the data from 2018 to 2020 on the PTT stock board and all the
 For crawling PTT, we used Beautiful Soup and the request package. At the meanwhile, we write a function that can let us crawl PTT web pages between a specific number of pages. After crawling each post on one page, it will continue to crawl on the next page until the end page number we set.
 
 For crawling the stock list, we use requests and pandas package to extract the table tag in the web page. The crawled stock names and stock codes contain garbled characters. For example:{‘1101\u3000台泥’}, so data needs to be cleaned up later.
-### Natural Language Processing
-- **Data Cleaning**
+### Natural language processing
+- **Data cleaning**
   
   we start to clean the listed stocks and OTC stocks lists we crawled. Because we only need the stock name and stock code, so we select the column of "有價證券代號及名稱". Then use the re function and filter function to save the stock name and stock code into different lists.
   In addition, in the process of web crawling, posts that have been removed will be crawled, so we need to filter that.
+  
+- **Word segmentation**
+
+  we can use Jieba to do the word segmentation. And because Jieba’s original dictionary is simplified Chinese. And To make segmentation more effective, we downloaded the traditional Chinese version as a dictionary. And also we add the Stock name into the dictionary. After that, we use jieba.cut() function to segment each article title.
+
 
