@@ -8,3 +8,7 @@ The first ETF which used the NLP technique to builds its index was launched this
 Buzz ETF invests in the top 75 firms of the largest U.S. stock with highest discussions volume on social media. 
 Since only the U.S. stocks on the shortlist, we also wanna know would it be possible to issue in Taiwan.
 so we decided to use the concept of the Buzz ETF, build an index by using the stocks in the TW market.
+## Outline
+- Text processing
+- Build ETF index
+- Investment
