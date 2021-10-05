@@ -10,5 +10,9 @@ Since only the U.S. stocks on the shortlist, we also wanna know would it be poss
 so we decided to use the concept of the Buzz ETF, build an index by using the stocks in the TW market.
 ## Outline
 - Text processing
+  - Web crawler
+  - NLP
+  - Corporate Filter
 - Build ETF index
-- Investment
+  - Name Frequency 
+  - Build ETF index
