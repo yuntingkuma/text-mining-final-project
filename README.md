@@ -26,3 +26,7 @@ so we decided to use the concept of the Buzz ETF, build an index by using the st
 
 ## Text Processing
 ### Web crawler
+We need to analyze the data from 2018 to 2020 on the PTT stock board and all the listed stocks' and over-the-counter stocks' lists on the Taiwan Stock Exchange. 
+
+For crawling PTT, we used Beautiful Soup and the request package. At the meanwhile, we write a function that can let us crawl PTT web pages between a specific number of pages. After crawling each post on one page, it will continue to crawl on the next page until the end page number we set.
+
