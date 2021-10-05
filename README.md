@@ -30,3 +30,6 @@ We need to analyze the data from 2018 to 2020 on the PTT stock board and all the
 
 For crawling PTT, we used Beautiful Soup and the request package. At the meanwhile, we write a function that can let us crawl PTT web pages between a specific number of pages. After crawling each post on one page, it will continue to crawl on the next page until the end page number we set.
 
+For crawling the stock list, we use requests and pandas package to extract the table tag in the web page. The crawled stock names and stock codes contain garbled characters. For example:{‘1101\u3000台泥’}, so data needs to be cleaned up later.
+### Natural Language Processing
+
