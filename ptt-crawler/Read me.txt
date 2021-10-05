@@ -1,0 +1,8 @@
+請在Anaconda Powershell直接執行:
+(Fork by jwlin ptt-web-crawler)
+形式:
+cd {檔案夾位置}
+python crawler.py -b {版名} -i {爬取起始頁數} {爬取結束頁數}
+範例:
+cd C:~\Text_mining\PTT-WEB
+python crawler.py -b Stock -i 1 2 
