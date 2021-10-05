@@ -33,7 +33,6 @@ For crawling PTT, we used Beautiful Soup and the request package. At the meanwhi
 For crawling the stock list, we use requests and pandas package to extract the table tag in the web page. The crawled stock names and stock codes contain garbled characters. For example:{‘1101\u3000台泥’}, so data needs to be cleaned up later.
 ### Natural Language Processing
 * Data Cleaning
-
   we start to clean the listed stocks and OTC stocks lists we crawled. Because we only need the stock name and stock code, so we select the column of "有價證券代號及名稱". Then use the re function and filter function to save the stock name and stock code into different lists.
   In addition, in the process of web crawling, posts that have been removed will be crawled, so we need to filter that.
 
