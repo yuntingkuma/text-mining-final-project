@@ -34,6 +34,6 @@ For crawling the stock list, we use requests and pandas package to extract the t
 ### Natural Language Processing
 * Data Cleaning
 
-we start to clean the listed stocks and OTC stocks lists we crawled. Because we only need the stock name and stock code, so we select the column of "有價證券代號及名稱". Then use the re function and filter function to save the stock name and stock code into different lists.
-In addition, in the process of web crawling, posts that have been removed will be crawled, so we need to filter that.
+  we start to clean the listed stocks and OTC stocks lists we crawled. Because we only need the stock name and stock code, so we select the column of "有價證券代號及名稱". Then use the re function and filter function to save the stock name and stock code into different lists.
+  In addition, in the process of web crawling, posts that have been removed will be crawled, so we need to filter that.
 
